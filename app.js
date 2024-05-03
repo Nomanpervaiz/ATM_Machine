@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let totalAmount = 20000;
 let pinCode = 1234;
@@ -28,7 +29,7 @@ if (userInp.userPin === pinCode) {
         ]);
         if (totalAmount >= withdrawUserInp.withrawAmount) {
             let remaing = (totalAmount -= withdrawUserInp.withrawAmount);
-            console.log("Your remaining balnce :" + "Rs." + remaing);
+            console.log("Your remaining balance :" + "Rs." + remaing);
         }
         else {
             console.log("You don't have enough balance to withdraw");

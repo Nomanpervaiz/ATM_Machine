@@ -1,9 +1,10 @@
 {
-  "name": "atm_machine",
-  "version": "1.0.0",
+  "name": "atm_machine_bynomanpervaiz",
+  "version": "1.0.1",
   "description": "Making ATM Machine using typescript",
   "main": "index.js",
   "type": "module",
+  "bin":"app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
